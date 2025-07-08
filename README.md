@@ -284,14 +284,13 @@ Archivos persistentes para almacenar ranking y jugadores.
 
 Imagenes:
 1. Asa
-![Asa](imagenes/asa.png)
+![Asa](imagenes/asa.jpg)
 
 2. Panal
-![Panal](imagenes/panal.png)
+![Panal](imagenes/panal.jpg)
 
 3. Pi
-![Pi](imagenes/pi.png)
-
+![Pi](imagenes/pi.jpg)
 Integrantes del Proyecto:
 
 José Luis Hernandez Vasquez   00126525
