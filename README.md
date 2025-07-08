@@ -221,7 +221,7 @@ vector<Card> hand;
 
 Estructuras condicionales: (if, else, switch)
 Controlan la lógica de turnos, validaciones de entrada y reglas del juego.
-📌 Ejemplo:
+Ejemplo:
 
 if (player.calculatePoints() > 21) {
     displayMessage("Te pasaste de 21", RED_COLOR);
@@ -229,7 +229,7 @@ if (player.calculatePoints() > 21) {
 
 Ciclos: (for, while, do while)
 Se utilizan para recorrer jugadores, pedir cartas y repetir menús.
-📌 Ejemplo:
+Ejemplo:
 
 while (choice != 'n') {
     Card newCard = deck.deal();
@@ -238,13 +238,13 @@ while (choice != 'n') {
 
 Funciones:
 Se organizan funciones por responsabilidad: playerTurn, dealerTurn, playAgainstDealer, etc.
-📌 Ejemplo:
+Ejemplo:
 
 void playAgainstDealer(mt19937& rng) { ... }
 
 Estructuras de datos:
 Se creó la estructura Card para representar una carta con su palo, valor y puntos.
-📌 Ejemplo:
+Ejemplo:
 
 struct Card {
     string suit;
@@ -254,14 +254,14 @@ struct Card {
 
 Manejo de archivos:
 Se guardan usuarios y ranking en archivos .txt usando ifstream y ofstream.
-📌 Ejemplo:
+Ejemplo:
 
 ofstream file("ranking.txt", ios::app);
 file << name << endl;
 
 Manejo de errores
 Se lanza una excepción si se intenta repartir una carta de una baraja vacía.
-📌 Ejemplo:
+Ejemplo:
 
 if (cards.empty()) {
     throw runtime_error("La baraja está vacía.");
@@ -269,7 +269,7 @@ if (cards.empty()) {
 
  Interfaz por consola
 El juego usa colores ANSI, impresión dinámica de manos y mensajes interactivos.
-📌 Ejemplo:
+Ejemplo:
 
 displayMessage("¡BLACKJACK!", MAGENTA_COLOR);
 displayCardText(carta.rank, carta.suit);
@@ -296,3 +296,5 @@ José Luis Hernandez Vasquez   00126525
 Maria Jose Hernandez Flores   00017425
 Pablo David Labor Lazo        00030325
 Kevin Daniel Aguilar Cerritos 00026825
+
+
