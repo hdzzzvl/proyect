@@ -177,20 +177,18 @@ Consideraciones técnicas:
 3.Se usa ifstream para leer archivos y getline para manejar strings.
 4.Se usan colores ANSI para la interfaz.
 
-🖼️ Mockup del juego
+Mockup del juego:
 
---- BIENVENIDO A TRIVIA BICHOTA ---
-1. Empezar a jugar
-2. Salir
+Imágenes del juego: 
 
-Pregunta 1:
-¿Cuál es la capital de Francia?
-a) Madrid
-b) Roma
-c) París
->> Tu respuesta: c
-¡Correcto!
+Hi
+![Hi](hi.jpg)
 
+His
+![His](his.jpg)
+
+Hiss
+![Hiss](hiss.jpg)
 
 Juego 2:
 
